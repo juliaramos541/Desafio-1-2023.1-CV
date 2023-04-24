@@ -1,0 +1,152 @@
+
+html, body{
+    background-image: url('assets/fundo4.png');
+    height: 100%;
+}
+/*Sidebar*/
+header{
+    width: fit-content;
+    background: rgb(2,0,36);
+    background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(98,41,250,1) 31%, rgba(151,115,251,1) 100%);
+    height: 100%;
+    padding: 50px 0px 300px;
+    /* margin-top: -10px; */
+    /* margin-left: -10px; */
+}
+#fotoPerfil{
+    margin-left: 30px;
+}
+
+.menu{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.menu a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px 40px;
+}
+.menu a:hover{
+    background-color: white;
+    color: #50377A;
+}
+
+/*Global*/
+main{
+    margin-left: 300px;
+    margin-top: -750PX;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #9773FB;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+}
+h2{
+    color: #50377A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    align-items: baseline;
+}
+h3{
+    color: #825AC7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+}
+h4{
+    color: #383242;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+}
+h6{
+    color: #50377A;
+    font-family: 'Anonymous Pro';
+    font-size: 14px;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: justify;
+}
+
+/*Home*/
+.home{
+    text-align: center;
+    width: 80%;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+.home h2{
+    font-size: 16px;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Habilidades*/
+
+ul{
+    font-size: 14px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+.stars{
+    padding-bottom: 10px;
+}
+.left{
+    width: 250px;
+}
+
+/*Formação Acadêmica*/
+
+.text{
+    
+    width: 80%;
+    padding-left: 50px;
+}
+
+/*Contato*/
+
+.contats{
+    display: flex;
+    margin-bottom: 10px;
+}
+.contats a{
+    color:black;
+    font-family: 'Montsserrat', sans-serif;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+/*Resposividade*/
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	
+  }

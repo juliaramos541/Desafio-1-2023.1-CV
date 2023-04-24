@@ -1,17 +1,17 @@
 
 html, body{
     background-image: url('assets/fundo4.png');
-    height: 100%;
+    height: 100vh;
 }
 /*Sidebar*/
 header{
     width: fit-content;
     background: rgb(2,0,36);
     background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(98,41,250,1) 31%, rgba(151,115,251,1) 100%);
-    height: 100%;
+    height: 100vh;
     padding: 50px 0px 300px;
-    /* margin-top: -10px; */
-    /* margin-left: -10px; */
+    margin-top: -10px; 
+    margin-left: -10px; 
 }
 #fotoPerfil{
     margin-left: 30px;
@@ -37,7 +37,7 @@ header{
 /*Global*/
 main{
     margin-left: 300px;
-    margin-top: -750PX;
+    margin-top: -72%;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -110,6 +110,9 @@ p{
 }
 
 /*Habilidades*/
+.habilidades{
+    display: none;
+}
 
 ul{
     font-size: 14px;
@@ -125,15 +128,24 @@ ul{
 
 /*Formação Acadêmica*/
 
+.formacaoAcademica{
+    display: none;
+}
 .text{
-    
     width: 80%;
     padding-left: 50px;
 }
+/* Experiência Profissional */
+.expProfissional{
+    display: none;
+}
 
 /*Contato*/
-
+.contato{
+    display: none;
+}
 .contats{
+
     display: flex;
     margin-bottom: 10px;
 }
@@ -143,10 +155,3 @@ ul{
     margin-left: 10px;
     text-decoration: none;
 }
-
-
-/*Resposividade*/
-@media only screen and (max-width: 768px) {
-	/* For mobile phones: */
-	
-  }
